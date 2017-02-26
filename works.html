@@ -1,172 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Portfolio</title>
-    <meta content="" name="Наиль Игсанов">
-    <meta content="" name="описание главной">
-    <meta content="" name="ключевые слова главной">
+    <title>Мои работы</title>
+    <meta content="Андрей Раздорский" name="author">
+    <meta content="Сайт-портфолио" name="description">
+    <meta content="портфолио сайт андрей раздорский" name="keywords">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
-    <link rel="stylesheet" href="/assets/css/foundation.css">
-    <link rel="stylesheet" href="/assets/css/app.css">
-    <link rel="stylesheet" href="/assets/img/sprite/sprite-png.css">
-    <script src="/assets/js/foundation.js" defer></script>
-    <script src="/assets/js/app.js" defer></script><!--[if lt IE 9]>
+    <link rel="stylesheet" href="./assets/css/foundation.css">
+    <link rel="stylesheet" href="./assets/css/style.css"><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
-  <body class="wellcome">
-    <div class="wrapper">
-      <section class="l-section l-hero">
+  <body>
+    <header class="header header_portfolio">
+      <div class="header__bg">
+        <div class="parallax-wrapper">
+          <ul class="vertical" id="scene">
+            <li class="layer" data-depth="0">
+              <div class="layer-bg layer-bg_0"></div>
+            </li>
+            <li class="layer" data-depth="0.1">
+              <div class="layer-bg layer-bg_1"></div>
+            </li>
+            <li class="layer" data-depth="0.2">
+              <div class="layer-bg layer-bg_2"></div>
+            </li>
+            <li class="layer" data-depth="0.30000000000000004">
+              <div class="layer-bg layer-bg_3"></div>
+            </li>
+            <li class="layer" data-depth="0.4">
+              <div class="layer-bg layer-bg_4"></div>
+            </li>
+            <li class="layer" data-depth="0.5">
+              <div class="layer-bg layer-bg_5"></div>
+            </li>
+            <li class="layer" data-depth="0.6000000000000001">
+              <div class="layer-bg layer-bg_6"></div>
+            </li>
+            <li class="layer" data-depth="0.7000000000000001">
+              <div class="layer-bg layer-bg_7"></div>
+            </li>
+            <li class="layer" data-depth="0.8">
+              <div class="layer-bg layer-bg_8"></div>
+            </li>
+            <li class="layer" data-depth="0.9">
+              <div class="layer-bg layer-bg_9"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__name">
+        <svg class="header__svg">
+          <use xlink:href="assets/icons/sprite.svg#portfolio_header" viewBox="0 0 1175.495 313.961"></use>
+        </svg>
+      </div>
+      <div class="header__user">
+        <div class="user">
+          <div class="user__pic"><img src="assets/images/avatar.jpg"></div>
+          <h1 class="user__name">Наиль Игсанов</h1>
+          <div class="user__desc">Личный сайт веб-разработчика</div>
+        </div>
+      </div>
+      <div class="header__socials">
         <ul class="socials">
-          <li class="socials_item"><a class="socials_link link-vk" href="#" target="_blank">
-              <svg class="socials_svg link-vk" preserveAspectRatio="xMinYMin meet">
-                <use class="svg_icon" xlink:href="assets/img/sprite/sprite/img.svg#vk"></use>
+          <li class="socials__item"><a class="socials__link" href="#">
+              <svg class="socials__svg">
+                <use xlink:href="assets/icons/sprite.svg#vk" viewBox="0 0 30.011 17.123"></use>
               </svg></a></li>
-          <li class="socials_item"><a class="socials_link link-github" href="#" target="_blank">
-              <svg class="socials_svg" preserveAspectRatio="xMinYMin meet">
-                <use class="svg_icon link-github" xlink:href="assets/img/sprite/sprite/img.svg#github"></use>
+          <li class="socials__item"><a class="socials__link" href="#">
+              <svg class="socials__svg">
+                <use xlink:href="assets/icons/sprite.svg#github" viewBox="0 0 26 22"></use>
               </svg></a></li>
-          <li class="socials_item"><a class="socials_link link-in" href="#" target="_blank">
-              <svg class="socials_svg link-in" preserveAspectRatio="xMinYMin meet">
-                <use class="svg_icon" xlink:href="assets/img/sprite/sprite/img.svg#in"></use>
+          <li class="socials__item"><a class="socials__link" href="#">
+              <svg class="socials__svg">
+                <use xlink:href="assets/icons/sprite.svg#in" viewBox="0 0 24 22.938"></use>
               </svg></a></li>
         </ul>
-        <div class="menu-hamburger">
-          <div class="menu-hamburger__item" id="menu-hamburger__item--line-first"></div>
-          <div class="menu-hamburger__item" id="menu-hamburger__item--line-second"></div>
-          <div class="menu-hamburger__item" id="menu-hamburger__item--line-third"></div>
+      </div><a class="menu-button" href="#">
+        <svg class="menu-button__svg">
+          <use xlink:href="assets/icons/sprite.svg#hamburger" viewBox="0 0 40 35"></use>
+        </svg></a>
+      <div class="header__arrows">
+        <div class="header__arrow-left">
+          <svg class="header__left-svg" viewBox="0 0 900.006 1013.986">
+            <use xlink:href="assets/icons/sprite.svg#about_bg_left"></use>
+          </svg>
         </div>
-        <div class="l-hero__bg">
-          <div class="l-hero__bg__img"></div>
+        <div class="header__arrow-right">
+          <svg class="header__right-svg" viewBox="0 0 900.006 1013.986">
+            <use xlink:href="assets/icons/sprite.svg#about_bg_right"></use>
+          </svg>
         </div>
-        <div class="l-hero__container">
-          <div class="c-user">
-            <div class="c-user__pic"><img src="/assets/img/user.jpg"></div>
-            <div class="c-user__profile">
-              <div class="c-user__name">Наиль Игсанов</div>
-              <div class="c-user__comment">Личный сайт веб разработчика</div>
-            </div>
-          </div>
-          <div class="c-hero__title-pic">
-            <svg class="svg__stars" preserveAspectRatio="xMinYMin meet">
-              <use class="svg_icon stars1" xlink:href="assets/img/sprite/sprite/img.svg#portfolio_header"></use>
-            </svg>
-          </div>
-        </div><a class="scroll pointer" href="#about">
-          <svg class="arrow-down__svg" preserveaspectratio="xMinYMin meet">
-            <use class="svg__icon" xlink:href="assets/img/sprite/sprite/img.svg#arrow_down"></use>
-          </svg></a>
-      </section>
-      <section class="l-section l-about">
-        <div class="labout__col labout__col_left">
-          <div class="c-about__triangle"></div>
-          <div class="c-section-title">
-            <div class="c-section-title__title">Обо мне</div>
-            <svg class="svg__about__img" preserveAspectRatio="xMinYMin meet">
-              <use xlink:href="assets/img/sprite/sprite/img.svg#stars2"></use>
-            </svg>
-          </div>
-        </div>
-      </section>
-      <section class="l-section c-slider">
-        <div class="c-section-title">
-          <div class="c-section-title__title">Мои работы
-            <svg class="svg__about__img" preserveAspectRatio="xMinYMin meet">
-              <use xlink:href="assets/img/sprite/sprite/img.svg#stars2"></use>
-            </svg>
-          </div>
-          <div class="c-slider__triangle">
-            <div class="c-triangle__left"></div>
-            <div class="c-triangle__right"></div>
-          </div>
-        </div>
-        <div class="slider_main">
-          <div class="slider_main__info">
-            <div class="slider_main__title"></div>
-            <div class="slider_main__description"></div>
-            <div class="slider_main__buuton"><a class="slider_link" href="#"></a></div>
-          </div>
-          <div class="slider_main__img__box">
-            <ul class="slider_main__list">
-              <li class="slider_main__item"><img class="slider_main__left__item__img" src="/assets/img/work-1.png"></li>
-              <li class="slider_main__item"><img class="slider_main__left__item__img" src="/assets/img/work-2.png"></li>
-              <li class="slider_main__item"><img class="slider_main__left__item__img" src="/assets/img/work-3.png"></li>
-              <li class="slider_main__item"><img class="slider_main__left__item__img" src="/assets/img/work-4.png"></li>
-            </ul>
-          </div>
-          <div class="slider_boxes">
-            <div class="slider_box__left">
-              <ul class="slider_box__left__list">
-                <li class="slider_box__left__item"><img class="slider_main__left__item__img" src="/assets/img/work-1.png"></li>
-                <li class="slider_box__left__item"><img class="slider_main__left__item__img" src="/assets/img/work-2.png"></li>
-                <li class="slider_box__left__item"><img class="slider_main__left__item__img" src="/assets/img/work-3.png"></li>
-                <li class="slider_box__left__item"><img class="slider_main__left__item__img" src="/assets/img/work-4.png"></li>
-              </ul>
-            </div>
-            <div class="slider_box__right">
-              <ul class="slider_box__right__list">
-                <li class="slider_box__right__item"><img class="slider_main__left__item__img" src="/assets/img/work-1.png"></li>
-                <li class="slider_box__right__item"><img class="slider_main__left__item__img" src="/assets/img/work-2.png"></li>
-                <li class="slider_box__right__item"><img class="slider_main__left__item__img" src="/assets/img/work-3.png"></li>
-                <li class="slider_box__right__item"><img class="slider_main__left__item__img" src="/assets/img/work-4.png"></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="l-footer">
-        <div class="footer__top">
-          <div class="footer__col">
-            <div class="col__comment">
-              <p>Этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool.</p>
-            </div>
-          </div>
-          <div class="footer__col">
-            <div class="col__menu_soc">
-              <div class="footer__menu">
-                <nav class="menu-footer">
-                  <div class="container">
-                    <ul class="menu-footer__list">
-                      <li class="menu-footer__item"><a class="menu-footer__link" href="#">Мои работы</a></li>
-                      <li class="menu-footer__item"><a class="menu-footer__link" href="#">Обо мне</a></li>
-                      <li class="menu-footer__item"><a class="menu-footer__link" href="#">Блог</a></li>
-                      <li class="menu-footer__item"><a class="menu-footer__link" href="#">Авторизация</a></li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-              <div class="footer__soc">
-                <ul class="socials">
-                  <li class="socials_item"><a class="socials_link link-vk" href="#" target="_blank">
-                      <svg class="socials_svg link-vk" preserveAspectRatio="xMinYMin meet">
-                        <use class="svg_icon" xlink:href="assets/img/sprite/sprite/img.svg#vk"></use>
-                      </svg></a></li>
-                  <li class="socials_item"><a class="socials_link link-github" href="#" target="_blank">
-                      <svg class="socials_svg" preserveAspectRatio="xMinYMin meet">
-                        <use class="svg_icon link-github" xlink:href="assets/img/sprite/sprite/img.svg#github"></use>
-                      </svg></a></li>
-                  <li class="socials_item"><a class="socials_link link-in" href="#" target="_blank">
-                      <svg class="socials_svg link-in" preserveAspectRatio="xMinYMin meet">
-                        <use class="svg_icon" xlink:href="assets/img/sprite/sprite/img.svg#in"></use>
-                      </svg></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer__col footer__contact">
-            <div class="col__footer__contact__title">
-              <p>skype_kdn</p>
-              <p>astahov@gmail.com</p>
-              <p>+7 931 200 93 24</p>
-              <p>г. Новосибирск, ул. Инская, д.4</p>
-            </div>
-          </div>
-        </div>
-        <div class="footer__copyright">
-          <p>© Владимир Астахов | Создано с любовью в LoftSchool | 2016</p>
-        </div>
-      </section>
+      </div>
+      <div class="header__next">
+        <svg class="header__next-svg">
+          <use xlink:href="assets/icons/sprite.svg#arrow_down" viewBox="0 0 25.18 16.164"></use>
+        </svg>
+      </div>
+    </header>
+    <div class="portfolio__wrapper">
+      <h1 class="portfolio__title">МОИ РАБОТЫ<span class="portfolio__title-pic">
+          <svg class="portfolio__title-svg">
+            <use xlink:href="assets/icons/sprite.svg#works_header" viewBox="0 0 1175.495 313.961"></use>
+          </svg></span></h1>
     </div>
+    <div class="main-container main-container_portfolio">
+      <section class="slider">
+        <div class="slider__info">
+          <div class="slider__title">САЙТ ШКОЛЫ ОНЛАЙН ОБРАЗОВАНИЯ</div>
+          <div class="slider__skills">HTML, CSS, JAVASCRIPT</div><a class="slider__button" href="#"><span class="fa fa-link"></span><span class="slider__button-text">Посмотреть сайт</span></a>
+        </div>
+        <div class="slider__pics"><img class="slider__pics-img" src="assets/images/work-1.png"></div>
+        <div class="slider__controls">
+          <div class="slider__controls-down"><img class="slider__controls-down-pic" src="assets/images/work-2.png">
+            <svg class="slider__controls-down-svg">
+              <use xlink:href="assets/icons/sprite.svg#portf_arrow_down" viewBox="0 0 42.736 27.435"></use>
+            </svg>
+          </div>
+          <div class="slider__controls-up"><img class="slider__controls-up-pic" src="assets/images/work-3.png">
+            <svg class="slider__controls-up-svg">
+              <use xlink:href="assets/icons/sprite.svg#portf_arrow_up" viewBox="0 0 42.736 27.435"></use>
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="reviews__bg"></div>
+        <h2 class="reviews__title">ЧТО ОБО МНЕ ГОВОРЯТ
+          <div class="reviews__title-pic">
+            <svg class="reviews__title-svg">
+              <use xlink:href="assets/icons/sprite.svg#about_header" viewBox="0 0 498.161 175.44"></use>
+            </svg>
+          </div>
+        </h2>
+        <div class="reviews__ppl">
+          <div class="reviews__quote">
+            <div class="reviews__userpic reviews__userpic_kov"></div>
+            <div class="reviews__text">Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 2 месяца только самых тяжелых испытаний и бессонных ночей!</div>
+            <div class="reviews__sign"><span class="reviews__name">Ковальчук Дмитрий</span><span class="reviews__prof">- основатель LoftSchool</span></div>
+          </div>
+          <div class="reviews__quote">
+            <div class="reviews__userpic reviews__userpic_sab"></div>
+            <div class="reviews__text">Этот код выдержит любые испытания. Только пожалуйста, не загружайте сайт на слишком старых браузерах!</div>
+            <div class="reviews__sign"><span class="reviews__name">Сабанцев Владимир</span><span class="reviews__prof">- преподаватель</span></div>
+          </div>
+        </div>
+        <div class="feedback">
+          <div class="feedback__main">
+            <h2 class="feedback__title">СВЯЗАТЬСЯ СО МНОЙ</h2>
+            <form class="feedback__form">
+              <input class="feedback__name" type="text" name="name" placeholder="Имя">
+              <input class="feedback__email" type="email" name="email" placeholder="Email">
+              <textarea class="feedback__text" name="message" placeholder="Ваше сообщение"></textarea>
+            </form>
+          </div>
+          <div class="feedback__footer">
+            <button class="feedback__button" type="submit">Отправить</button>
+            <button class="feedback__button" type="reset">Очистить</button>
+          </div>
+        </div>
+      </section>
+      <div class="totop">
+        <svg class="totop-svg">
+          <use xlink:href="assets/icons/sprite.svg#portf_arrow_up" viewBox="0 0 42.736 27.435"></use>
+        </svg>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__row">
+        <div class="footer__column footer__column_left"><a class="footer__link preload-link" href="works.html">My works</a><a class="footer__link preload-link" href="about.html">About me</a><a class="footer__link preload-link" href="blog.html">Blog</a><a class="footer__link preload-link" href="/">Login</a>
+        </div>
+        <div class="footer__column footer__column_right">
+          <ul class="footer-socials">
+            <li class="footer-socials__item"><a class="socials__link" href="#">
+                <svg class="socials__svg">
+                  <use xlink:href="assets/icons/sprite.svg#vk" viewBox="0 0 30.011 17.123"></use>
+                </svg></a></li>
+            <li class="footer-socials__item"><a class="socials__link" href="#">
+                <svg class="socials__svg">
+                  <use xlink:href="assets/icons/sprite.svg#github" viewBox="0 0 26 22"></use>
+                </svg></a></li>
+            <li class="footer-socials__item"><a class="socials__link" href="#">
+                <svg class="socials__svg">
+                  <use xlink:href="assets/icons/sprite.svg#in" viewBox="0 0 24 22.938"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__row">
+        <div class="footer__column footer__column_left">
+          <div class="footer__quote">
+            <p>Этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool.</p>
+          </div>
+        </div>
+        <div class="footer__column footer__column_right">
+          <div class="footer__copyright"><span class="copyright__text">&copy; Наиль Игсанов</span><span class="copyright__text">создано с любовью в LoftSchool</span><span class="copyright__text">2017</span></div>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/foundation.js" defer></script>
   </body>
 </html>
