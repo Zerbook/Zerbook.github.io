@@ -48,63 +48,66 @@
           </li>
         </ul>
       </div>
-      <div class="welcome">
-        <div class="welcome__info">
-          <div class="user">
-            <div class="user__pic"><img src="assets/images/avatar.jpg"></div>
-            <h1 class="user__name">Наиль Игсанов</h1>
-            <div class="user__desc">Личный сайт веб-разработчика</div>
+      <div class="flipper">
+        <div class="welcome">
+          <div class="welcome__info">
+            <div class="user">
+              <div class="user__pic"><img src="assets/images/avatar.jpg"></div>
+              <h1 class="user__name">Наиль Игсанов</h1>
+              <div class="user__desc">Личный сайт веб-разработчика</div>
+            </div>
+            <ul class="socials">
+              <li class="socials__item"><a class="socials__link" href="#">
+                  <svg class="socials__svg">
+                    <use xlink:href="assets/icons/sprite.svg#vk" viewBox="0 0 30.011 17.123"></use>
+                  </svg></a></li>
+              <li class="socials__item"><a class="socials__link" href="#">
+                  <svg class="socials__svg">
+                    <use xlink:href="assets/icons/sprite.svg#github" viewBox="0 0 26 22"></use>
+                  </svg></a></li>
+              <li class="socials__item"><a class="socials__link" href="#">
+                  <svg class="socials__svg">
+                    <use xlink:href="assets/icons/sprite.svg#in" viewBox="0 0 24 22.938"></use>
+                  </svg></a></li>
+            </ul>
           </div>
-          <ul class="socials">
-            <li class="socials__item"><a class="socials__link" href="#">
-                <svg class="socials__svg">
-                  <use xlink:href="assets/icons/sprite.svg#vk" viewBox="0 0 30.011 17.123"></use>
-                </svg></a></li>
-            <li class="socials__item"><a class="socials__link" href="#">
-                <svg class="socials__svg">
-                  <use xlink:href="assets/icons/sprite.svg#github" viewBox="0 0 26 22"></use>
-                </svg></a></li>
-            <li class="socials__item"><a class="socials__link" href="#">
-                <svg class="socials__svg">
-                  <use xlink:href="assets/icons/sprite.svg#in" viewBox="0 0 24 22.938"></use>
-                </svg></a></li>
-          </ul>
+          <nav class="welcome__nav"><a class="welcome__nav-item" href="works.html">Мои работы</a><a class="welcome__nav-item" href="about.html">Обо мне</a><a class="welcome__nav-item" href="blog.html">Блог</a></nav>
         </div>
-        <nav class="welcome__nav"><a class="welcome__nav-item" href="works.html">Мои работы</a><a class="welcome__nav-item" href="about.html">Обо мне</a><a class="welcome__nav-item" href="blog.html">Блог</a></nav>
-      </div>
-      <div class="auth">
-        <div class="auth__info">
-          <h2 class="auth__title">АВТОРИЗУЙТЕСЬ</h2>
-          <form class="auth__form">
-            <div class="auth__input">
-              <div class="auth__input-icon"><span class="fa fa-user"></span></div>
-              <input class="auth__input-text" type="text" placeholder="Логин">
-            </div>
-            <div class="auth__input">
-              <div class="auth__input-icon"><span class="fa fa-key"></span></div>
-              <input class="auth__input-text" type="password" placeholder="Пароль">
-            </div>
-            <label class="auth__check-label">
-              <input class="auth__checkbox" type="checkbox">Я человек
-            </label><span class="auth__robot">Вы точно не робот?</span>
-            <div class="auth__radio">
-              <label class="auth__radio-label">
-                <input class="auth__radio-button" type="radio" name="robot" value="yes">Да
-              </label>
-              <label class="auth__radio-label">
-                <input class="auth__radio-button" type="radio" name="robot" value="no">Не уверен
-              </label>
-            </div>
-          </form>
+        <div class="auth">
+          <div class="auth__info">
+            <h2 class="auth__title">АВТОРИЗУЙТЕСЬ</h2>
+            <form class="auth__form">
+              <div class="auth__input">
+                <div class="auth__input-icon"><span class="fa fa-user"></span></div>
+                <input class="auth__input-text" type="text" placeholder="Логин">
+              </div>
+              <div class="auth__input">
+                <div class="auth__input-icon"><span class="fa fa-key"></span></div>
+                <input class="auth__input-text" type="password" placeholder="Пароль">
+              </div>
+              <label class="auth__check-label">
+                <input class="auth__checkbox" type="checkbox">Я человек
+              </label><span class="auth__robot">Вы точно не робот?</span>
+              <div class="auth__radio">
+                <label class="auth__radio-label">
+                  <input class="auth__radio-button" type="radio" name="robot" value="yes">Да
+                </label>
+                <label class="auth__radio-label">
+                  <input class="auth__radio-button" type="radio" name="robot" value="no">Не уверен
+                </label>
+              </div>
+            </form>
+          </div>
+          <nav class="auth__nav"><a class="auth__nav-item auth__back-button" href="#">На главную</a><a class="auth__nav-item" href="#">Войти</a></nav>
         </div>
-        <nav class="auth__nav"><a class="auth__nav-item" href="index.html">На главную</a><a class="auth__nav-item" href="#">Войти</a></nav>
       </div>
       <button class="auth__button" href="#">Авторизоваться</button>
       <div class="copyright"><span class="copyright__text">&copy; Наиль Игсанов</span><span class="copyright__text">создано с любовью в LoftSchool</span><span class="copyright__text">2017</span></div>
     </div>
     <!--script(src='/assets/js/libs.js' defer)-->
     <!--script(src='/assets/js/app.js' defer)-->
-    <script src="./assets/js/main.js" defer></script>
+    <!--script(src='./assets/js/main.js' defer)-->
     <script src="./assets/js/foundation.js" defer></script>
+    <script src="./assets/js/main.js" defer></script>
   </body>
 </html>
